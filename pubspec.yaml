@@ -1,0 +1,38 @@
+name: food_delivery
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter application.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.3.8
+  flutter_snake_navigationbar: ^0.5.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/burger1.png
+    - assets/images/burger_Final.png
+    - assets/images/downarrow.png
+    - assets/images/hot_dog.png
+    - assets/images/locationDrop.png
+    - assets/images/maskGroup.png
+    - assets/images/menu.png
+    - assets/images/pizza.png
+    - assets/images/profile.png
+    - assets/images/salad.png
+    - assets/images/fries1.png
+    - assets/images/sandwich1.png
+    - assets/images/banner.png
+  fonts:
+    - family: MontserratRegular
+      fonts:
+        -  asset: assets/fonts/montserrat-regular.ttf
